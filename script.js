@@ -62,6 +62,7 @@ async function predict() {
       coat: '이것은 코트입니다.',
       Tshirts: '이것은 티셔츠입니다.',
       jumper: '이것은 패딩입니다.',
+      men: '이것은 맨투맨입니다.',
     };
 
     if (probability >= 75) {
