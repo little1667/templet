@@ -57,12 +57,12 @@ async function predict() {
       hoodT: '이것은 후드티입니다.',
       pants: '이것은 바지입니다',
       belt: '이것은 벨트입니다.',
-      shose: '이것은 신발입니다.',
+      shoes: '이것은 신발입니다.',
       onepiece: '이것은 원피스입니다.',
       coat: '이것은 코트입니다.',
       Tshirts: '이것은 티셔츠입니다.',
       jumper: '이것은 패딩입니다.',
-      men: '이것은 맨투맨입니다.',
+      men2men: '이것은 맨투맨입니다.',
     };
 
     if (probability >= 75) {
