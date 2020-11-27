@@ -54,7 +54,7 @@ async function predict() {
     const data = {
       skirt: '이것은 치마입니다.',
       none: '아무것도 없습니다.',
-      hood T: '이것은 후드티입니다.',
+      hoodT: '이것은 후드티입니다.',
       pants: '이것은 바지입니다',
       belt: '이것은 벨트입니다.',
       shose: '이것은 신발입니다.',
