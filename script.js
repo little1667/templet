@@ -52,9 +52,16 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      Me: 'Me에 대한 설명을 적어볼까요?',
-      None: 'None에 대한 설명을 적어볼까요?',
-      pen: '이것은 펜입니다!',
+      skirt: '이것은 치마입니다.',
+      none: '아무것도 없습니다.',
+      hood T: '이것은 후드티입니다.',
+      pants: '이것은 바지입니다',
+      belt: '이것은 벨트입니다.',
+      shose: '이것은 신발입니다.',
+      onepiece: '이것은 원피스입니다.',
+      coat: '이것은 코트입니다.',
+      Tshirts: '이것은 티셔츠입니다.',
+      jumper: '이것은 패딩입니다.',
     };
 
     if (probability >= 75) {
